@@ -9,7 +9,7 @@ Requires Json.NET from Newtonsoft
 
 Xamarin example (on android)
 ============================
-
+```
 IvonaTts IvonaTtsSpeaker = new IvonaTts ();
 
 String textToSpeak = "Hello World";
@@ -20,7 +20,7 @@ var destinationFileName = Path.Combine (documents, "test.mp3");
 //Generate mp3 file from text
 
 IvonaTtsSpeaker.SynthesizeToFile(textToSpeak,destinationFileName);
-
+```
 Notes
 ======
 

@@ -5,7 +5,7 @@ Ivona TTS Class compatible with Xamarin
 
 Based on initial code from https://github.com/MalyutinS/DotNetIvonaAPI
 
-Requires Json.NET from Newtonsoft;
+Requires Json.NET from Newtonsoft
 
 Xamarin example (on android)
 ============================
@@ -17,7 +17,8 @@ String textToSpeak = "Hello World";
 var documents = Android.OS.Environment.ExternalStorageDirectory.Path;
 var destinationFileName = Path.Combine (documents, "test.mp3");
 
-//Generate mp3 file from text;
+//Generate mp3 file from text
+
 IvonaTtsSpeaker.SynthesizeToFile(textToSpeak,destinationFileName);
 
 Notes
